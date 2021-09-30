@@ -13,7 +13,6 @@ public class Garage {
 
     public ArrayList<Car> carArrayList = new ArrayList<>();
 
-
     public Garage() {
         carArrayList.add(new Bus(4, 10, "green", "Mersedes", Car.fuelType.Diesel));
         carArrayList.add (new Bus(5, 22, "read","volvo", Car.fuelType.Diesel));

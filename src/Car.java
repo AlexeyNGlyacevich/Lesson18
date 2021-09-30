@@ -4,7 +4,6 @@ public abstract class Car
     public String _name;
     public fuelType _type;
 
-
     public enum fuelType{
         Diesel,
         Gasoline;
