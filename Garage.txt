@@ -1,0 +1,1 @@
+Bus{dor=4, place=10, _color='green', _name='Mersedes', _type=Diesel}PassengerCar{_color='yellow', _name='Ferrari', _type=Gasoline, _seat_materials='leather'}PassengerCar{_color='grey', _name='Audi', _type=Gasoline, _seat_materials='velur'}Bus{dor=6, place=25, _color='red', _name='Nissan', _type=Diesel}
