@@ -1,4 +1,5 @@
 public class Bus extends Car {
+
     private int dor;
     private int place;
 
@@ -18,13 +19,10 @@ public class Bus extends Car {
         this.dor = dor;
     }
 
-
-    public Bus(int dor, int place, String color, String name, fuelType type ) {
+    public Bus(String color, String name, FuelType type, int dor, int place) {
+        super(color, name, type);
         this.dor = dor;
         this.place = place;
-        this._color = color;
-        this._name = name;
-        this._type = fuelType.valueOf(type.toString());
     }
 
     @Override
@@ -32,9 +30,9 @@ public class Bus extends Car {
         return "Bus{" +
                 "dor=" + dor +
                 ", place=" + place +
-                ", _color='" + _color + '\'' +
-                ", _name='" + _name + '\'' +
-                ", _type=" + _type +
+                ", color=" + super.getColor()+
+                ", name=" + super.getName()+
+                ", Fuel type=" + super.getType() +
                 '}';
     }
 }
